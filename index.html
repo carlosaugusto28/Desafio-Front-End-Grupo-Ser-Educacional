@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Miragem - Itacaré</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/hotel-logo.png" alt="Hotel Miragem Logo">
+                </a>
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="menu-dropdown">
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="cover" id="home">
+            <div class="cover-content">
+                <h1>Conheça este paraíso chamado Itacaré</h1>
+                <h2>"Aconchego, Conforto, Simpatia e Alto-astral"</h2>
+                <a href="#sobre" class="btn">Saiba mais</a>
+            </div>
+        </section>
+
+        <section class="about section-padding" id="sobre">
+            <div class="container">
+                <div class="titles">
+                    <h2>Conheça o Hotel Miragem!</h2>
+                    <div class="separator"></div>
+                    <p>Feche os olhos e imagine o paraíso. Um lugar no meio da Mata Atlântica e banhada pelo mar, onde você encontra paz, tranquilidade, conforto e comodidade.</p>
+                </div>
+            </div> <div class="grid-container">
+                <div class="grid-item"><img src="img/itarace-hotel-01.jpg" alt="Piscina do hotel"></div>
+                <div class="grid-item"><img src="img/itarace-hotel-02.jpg" alt="Fachada do hotel"></div>
+                <div class="grid-item"><img src="img/itarace-hotel-03.jpg" alt="Restaurante"></div>
+                <div class="grid-item"><img src="img/itarace-hotel-04.jpg" alt="Quarto casal"></div>
+                <div class="grid-item"><img src="img/itarace-hotel-05.jpg" alt="Natureza e coqueiros"></div>
+                <div class="grid-item"><img src="img/itarace-hotel-06.jpg" alt="Praia em frente"></div>
+            </div>
+        </section>
+
+        <section class="infos section-padding" id="depoimentos">
+            <div class="container">
+                <div class="titles">
+                    <h2>O Único hotel pé na areia de Itacaré</h2>
+                    <div class="separator"></div>
+                    <p>
+                        Implantado em uma área completamente arborizada, o Hotel Miragem é o único hotel pé na areia de Itacaré.<br>
+                        Aqui o mar será o seu companheiro e você terá as belezas da Natureza como guia.
+                    </p>
+                </div>
+                
+                <div class="info-grid">
+                    <div class="info-card">
+                        <i class="fa-solid fa-location-arrow info-icon"></i>
+                        <h3>Localização</h3>
+                        <p>Localizada no sul da Bahia, entre o mar e a Mata Atlântica, Itacaré tem refrescantes cachoeiras e praias belíssimas.</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-gift info-icon"></i>
+                        <h3>Pacotes e ofertas</h3>
+                        <p>Sabe aquele descontraído encontro com os familiares e amigos? Nossa estrutura conta com espaços inesquecíveis.</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fa-solid fa-house-chimney info-icon"></i>
+                        <h3>Acomodações</h3>
+                        <p>Hotel Miragem possui 29 unidades, divididas entre chalés e suítes, todos com TV a cabo, frigobar e varanda com rede.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe section-padding" id="contato">
+            <div class="container">
+                <div class="titles">
+                    <h2>Assine nossa newsletter</h2>
+                    <p>Se mantenha atualizado com nossos serviços e a programação de nossos eventos culturais.</p>
+                    <div class="separator"></div>
+                </div>
+                
+                <form id="newsletterForm">
+                    <input type="email" id="emailInput" placeholder="Digite o seu E-mail" required />
+                    <button type="submit" id="submitButton" disabled>CADASTRAR</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Copyright © Hotel Miragem 2025. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast hidden">
+        <i class="fa-solid fa-check-circle"></i>
+        <span>Seu e-mail foi cadastrado com sucesso!</span>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

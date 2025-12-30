@@ -1,0 +1,10 @@
+/*===================  VARIABLES  ========================= */
+:root {--color-light: #FFF; --color-grey: #CED4DA; --color-dark: #333;
+    --color-blue: #F0F8FF; --color-blue2: #1188EE; --color-blue3: #0000FFCC;
+}
+
+/*=====================  RESET  ========================= */
+* {margin: 0; padding: 0; border: none; outline: none; font-size: 100%; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+ul {list-style: none;}
+a {text-decoration: none;}
+img {width: 100%;}
