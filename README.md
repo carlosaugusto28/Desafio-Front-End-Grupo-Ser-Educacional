@@ -20,7 +20,7 @@ O site contém:
 ![Homepage Desktop](README/IMG/homepage.png)
 
 ### Galeria de Imagens
-![Galeria Desktop](./images/imgrid.png)
+![Galeria Desktop](README/IMG/imgrid.png)
 
 ---
 
@@ -28,7 +28,7 @@ O site contém:
 
 O site foi totalmente adaptado para dispositivos móveis, utilizando menu hambúrguer e layout fluido.
 
-![Homepage Mobile](./images/mobilepage.png)
+![Homepage Mobile](README/IMG/mobilepage.png)
 
 ---
 
@@ -40,6 +40,32 @@ O site foi totalmente adaptado para dispositivos móveis, utilizando menu hambú
   - Media Queries
 - **JavaScript (Vanilla JS)**
 - Design responsivo (Mobile First)
+
+---
+
+## 🎯 Funcionalidades Implementadas
+
+- Menu de navegação fixo no topo
+- Scroll suave entre as seções do site
+- Botão de chamada para ação (**Saiba Mais**)
+- Seção institucional com descrição do hotel
+- Galeria de imagens organizada em grid
+- Layout visual alinhado ao design proposto
+- Menu hambúrguer para dispositivos móveis
+- Navegação fluida entre desktop e mobile
+
+---
+
+## 📱 Responsividade
+
+O site foi desenvolvido com foco em **design responsivo**, garantindo boa experiência em diferentes dispositivos:
+
+- Layout adaptável para **desktop, tablet e mobile**
+- Menu responsivo com botão hambúrguer no mobile
+- Imagens fluidas e redimensionáveis
+- Tipografia ajustada conforme o tamanho da tela
+- Estrutura flexível utilizando **Flexbox**
+- Uso de **Media Queries** para adaptação de layout
 
 ---
 
