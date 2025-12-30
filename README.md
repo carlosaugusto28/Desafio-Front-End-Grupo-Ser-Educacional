@@ -17,7 +17,7 @@ O site contém:
 ## 🖥️ Layout – Desktop
 
 ### Página Inicial
-![Homepage Desktop](./images/homepage.png)
+![Homepage Desktop](README/IMG/homepage.png)
 
 ### Galeria de Imagens
 ![Galeria Desktop](./images/imgrid.png)
